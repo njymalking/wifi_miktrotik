@@ -19,9 +19,9 @@ class MikroTikConfig {
   };
 
   factory MikroTikConfig.fromJson(Map<String, dynamic> json) => MikroTikConfig(
-    ipAddress: json['ipAddress'] ?? '',
+    ipAddress: json['ipAddress'] ?? '10.0.0.1',
     username: json['username'] ?? 'admin',
-    password: json['password'] ?? '',
+    password: json['password'] ?? 'Adminmikro10001#',
     port: json['port'] ?? 8729,
   );
 }
@@ -103,8 +103,8 @@ class CustomerServiceInfo {
   final String website;
 
   CustomerServiceInfo({
-    this.phoneNumber = 'XXXXXXXXX',
-    this.whatsappNumber = 'XXXXXXXXX',
-    this.website = 'https://example.com',
+    this.phoneNumber = '775710500',
+    this.whatsappNumber = '775710500',
+    this.website = '',
   });
 }
